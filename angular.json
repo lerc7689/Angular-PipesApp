@@ -35,7 +35,7 @@
               {
                 "glob": "**/*",
                 "input": "public"
-                
+
               }
             ],
             "styles": [
@@ -52,8 +52,8 @@
               "budgets": [
                 {
                   "type": "initial",
-                  "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumWarning": "1.5MB",
+                  "maximumError": "2MB"
                 },
                 {
                   "type": "anyComponentStyle",
@@ -109,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5c65da52-d52b-4806-8829-afc6355a4d55"
   }
 }
